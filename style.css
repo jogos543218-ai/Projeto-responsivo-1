@@ -145,3 +145,21 @@ body {
     }
 }
 
+@media (max-width: 479px) {
+    .apresentacao {
+        flex-direction: column-reverse; /* Mantém a imagem em cima e texto embaixo */
+        padding: 10% 5%;
+    }
+
+    .apresentacao__imagem {
+        width: 100%;       /* Faz a foto ocupar a largura total disponível */
+        max-width: 350px;  /* Define um limite para não estourar a qualidade */
+        margin: 0 auto;    /* Centraliza a foto se ela for menor que a tela */
+    }
+
+    .apresentacao__titulo {
+        font-size: 1.8rem;
+        text-align: center; /* Títulos centralizados ficam melhores no mobile */
+    }
+}
+
