@@ -141,8 +141,8 @@ body {
     }
 
     .apresentacao__imagem {
-        width: 80%; 
-        max-width: 300px; 
+        width: 90%; 
+        max-width: 350px; 
         margin: 0 auto; 
     }
 
@@ -169,5 +169,6 @@ body {
         width: 100%; 
         max-width: 280px;
     }
+
 
 
